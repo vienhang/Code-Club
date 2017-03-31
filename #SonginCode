@@ -1,0 +1,20 @@
+// Array of actions
+var actions = ['give you up',
+              'let you down',
+              'run around and desert you',
+              'make you cry',
+              'say goodbye',
+              'tell a lie and hurt you'];
+
+// IF impossible condition...
+if (0 > 1) {
+  // Starting at 0 and running until we hit the length of the array
+  for (var i = 0; i < actions.length; i++) {
+    // Print each action with whether you'll do it or not
+    console.log("I will", actions[i])
+  }
+} else {
+  for (var i = 0; i < actions.length; i++) {
+    console.log("Never gonna", actions[i])
+  }
+}
